@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =======bootstrap cdn path======== -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+
+    <!-- bootstrap icon path -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- ========css file path========= -->
+
+    <link rel="stylesheet" href="contact.css">
+    <title>contact</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary" id="target">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand" href="#">SUMAN</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="INDEX.HTML">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+    
+                    </ul>
+                </div>
+                <div class="icon">
+                    <a href="#" target="_blank"><i class="bi bi-whatsapp text-info"></i></a>
+                    <a href="https://www.facebook.com/suman.pal.3517563/" target="_blank"><i class="bi bi-facebook text-info"></i></a>
+                    <a href="https://www.instagram.com/sumanpal1997/" target="_blank"><i class="bi bi-instagram text-info"></i></a>
+                    <a href="https://www.linkedin.com/in/suman-kumar-pal-999634148/"><i class="bi bi-linkedin text-info" target="_blank"u></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =========container area========= -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <h2>CONTACT</h2>
+                <div class="w-10"></div>
+                <p class="my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio reprehenderit repudiandae similique possimus in asperiores fugiat, numquam animi esse accusantium minus ducimus vero aliquam, culpa, consectetur voluptate iusto enim nesciunt.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.315771557142!2d87.86969591412021!3d23.231593614315152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f849c9797aeffd%3A0x8fa08f266457a80a!2s4%2C%20Ichlabad%20Rd%2C%20Sripally%2C%20Ichlabad%2C%20Burdwan%2C%20West%20Bengal%20713103!5e0!3m2!1sen!2sin!4v1633715380572!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="info">
+                    <div class="address">
+                      <i class="bi bi-geo-alt"></i>
+                      <h4>Location:</h4>
+                      <p>4 NO ICHLABAD, BURDWAN,713103</p>
+                    </div>
+      
+                    <div class="email">
+                      <i class="bi bi-envelope"></i>
+                      <h4>Email:</h4>
+                      <p>SUMAN.PAL199710@GMAIL.COM</p>
+                    </div>
+      
+                    <div class="phone">
+                      <i class="bi bi-phone"></i>
+                      <h4>Call:</h4>
+                      <p>+91 7699662582</p>
+                    </div>
+      
+                  </div>
+            </div>
+            <div class="col-lg-8 mt-5 mt-lg-0">
+
+                <form action="forms/contact.php" method="post" role="form" class="email-form">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  </div>
+                  <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+    
+              </div>
+        </div>
+    </div>
+    <!-- ======footer area======= -->
+    <footer id="footer" class="mt-4">
+        <div class="container-fluid">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Suman</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <span class="text-secondary">Suman Kr Pal.</span>
+          </div>
+        </div>
+      </footer>
+      <div class="fixed-element">
+        <a href="#target" class="text-info"><i class="bi bi-arrow-up-circle-fill" id="icon"></i></a>
+        </div>
+</body>
+</html>
